@@ -3,9 +3,14 @@ from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from PIL import Image 
+import cv2
+import numpy as np
+from detect import Detector
+import json
 
 UPLOAD_FOLDER = './upload'
 ALLOWED_EXTENSIONS = set(['jpg'])
+detector = None
 
 app = Flask(__name__)
 CORS(app)
@@ -33,18 +38,49 @@ def upload_file():
 
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
-            print ("Filename: " +filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             add_padding(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-    return "succes"
+            downscale_image(os.path.join(app.config['UPLOAD_FOLDER'], filename), 640)
+
+    return "Succues"
+
+@app.route("/api/get_detection", methods=["GET"])
+def get_detection():
+    if request.method == "GET":
+        response = detector.detect()
+        response = json.dumps(response, indent=4, sort_keys=True)
+        return response
+
 
 def add_padding(path):
-    image = Image.open(path)
-    width, height = image.size
-    new_height = width
-    new_image = Image.new(image.mode, (width, new_height), (0,0,0))
-    new_image.paste(image, (100, 100))
-    new_image.save('image.jpg')
-    
+    # read image
+    img = cv2.imread(path)
+    old_image_height, old_image_width, channels = img.shape
+
+    # create new image of desired size and color (blue) for padding
+    new_image_width = old_image_width
+    new_image_height = old_image_width
+    color = (0,0,0)
+    result = np.full((new_image_height,new_image_width, channels), color, dtype=np.uint8)
+
+    # compute center offset
+    x_center = (new_image_width - old_image_width) // 2
+    y_center = (new_image_height - old_image_height) // 2
+
+    # copy img image into center of result image
+    result[y_center:y_center+old_image_height, 
+        x_center:x_center+old_image_width] = img
+
+    # save result
+    cv2.imwrite(path, result)
+
+def downscale_image(path, resolution):
+    image = cv2.imread(path)
+    height, width = image.shape[:2]
+    scaling_factor = resolution / max(height, width)
+    cv2.imwrite(path, cv2.resize(image, None, fx=scaling_factor, fy=scaling_factor))
+
 if __name__ == '__main__':
+    detector = Detector()
+    detector.load()
     app.run(port=8080, debug=True)
