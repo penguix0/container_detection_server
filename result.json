@@ -1,0 +1,502 @@
+[
+    {
+        "objects": [
+            {
+                "confidence": "51",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.107421875,
+                    0.6666666865348816,
+                    0.212890625,
+                    0.6388888955116272
+                ],
+                "randomDigit": 60427
+            },
+            {
+                "confidence": "52",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.78955078125,
+                    0.5503472089767456,
+                    0.0927734375,
+                    0.15625
+                ],
+                "randomDigit": 39203
+            },
+            {
+                "confidence": "52",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.52001953125,
+                    0.8064236044883728,
+                    0.0869140625,
+                    0.3871527910232544
+                ],
+                "randomDigit": 45491
+            },
+            {
+                "confidence": "65",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.69189453125,
+                    0.8967013955116272,
+                    0.1083984375,
+                    0.1961805522441864
+                ],
+                "randomDigit": 85282
+            },
+            {
+                "confidence": "66",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.58544921875,
+                    0.7413194179534912,
+                    0.0712890625,
+                    0.1701388955116272
+                ],
+                "randomDigit": 21399
+            },
+            {
+                "confidence": "70",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.87060546875,
+                    0.5416666865348816,
+                    0.0732421875,
+                    0.1319444477558136
+                ],
+                "randomDigit": 73848
+            },
+            {
+                "confidence": "76",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.6728515625,
+                    0.0381944440305233,
+                    0.12109375,
+                    0.0729166641831398
+                ],
+                "randomDigit": 59473
+            },
+            {
+                "confidence": "79",
+                "id": "",
+                "name": "container_side",
+                "points": [
+                    0.43212890625,
+                    0.6848958134651184,
+                    0.0478515625,
+                    0.0815972238779068
+                ],
+                "randomDigit": 17758
+            },
+            {
+                "confidence": "81",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.68212890625,
+                    0.5303819179534912,
+                    0.1220703125,
+                    0.2309027761220932
+                ],
+                "randomDigit": 22136
+            },
+            {
+                "confidence": "83",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.3291015625,
+                    0.6493055820465088,
+                    0.236328125,
+                    0.5555555820465088
+                ],
+                "randomDigit": 66007
+            },
+            {
+                "confidence": "87",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.7783203125,
+                    0.0798611119389534,
+                    0.09765625,
+                    0.15625
+                ],
+                "randomDigit": 63292
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.10693359375,
+                    0.1927083283662796,
+                    0.2119140625,
+                    0.3819444477558136
+                ],
+                "randomDigit": 52524
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.53759765625,
+                    0.5329861044883728,
+                    0.1689453125,
+                    0.2708333432674408
+                ],
+                "randomDigit": 77767
+            },
+            {
+                "confidence": "90",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.32861328125,
+                    0.2039930522441864,
+                    0.2353515625,
+                    0.4079861044883728
+                ],
+                "randomDigit": 10198
+            },
+            {
+                "confidence": "91",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.5322265625,
+                    0.2100694477558136,
+                    0.171875,
+                    0.4201388955116272
+                ],
+                "randomDigit": 39761
+            },
+            {
+                "confidence": "92",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.7841796875,
+                    0.2986111044883728,
+                    0.099609375,
+                    0.3506944477558136
+                ],
+                "randomDigit": 56560
+            },
+            {
+                "confidence": "92",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.865234375,
+                    0.3220486044883728,
+                    0.078125,
+                    0.3142361044883728
+                ],
+                "randomDigit": 58869
+            },
+            {
+                "confidence": "92",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.67919921875,
+                    0.2239583283662796,
+                    0.1298828125,
+                    0.4201388955116272
+                ],
+                "randomDigit": 21455
+            },
+            {
+                "confidence": "94",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.85888671875,
+                    0.0980902761220932,
+                    0.0771484375,
+                    0.1927083283662796
+                ],
+                "randomDigit": 71332
+            }
+        ],
+        "path": "image_picker2105850517897035169.jpg"
+    },
+    {
+        "objects": [
+            {
+                "confidence": "61",
+                "id": "",
+                "name": "container_side",
+                "points": [
+                    0.8153645992279053,
+                    0.45820313692092896,
+                    0.36927083134651184,
+                    0.5843750238418579
+                ],
+                "randomDigit": 49500
+            }
+        ],
+        "path": "image_picker6700851753094961156.jpg"
+    },
+    {
+        "objects": [
+            {
+                "confidence": "52",
+                "id": "",
+                "name": "container_back",
+                "points": [
+                    0.63037109375,
+                    0.9157986044883728,
+                    0.0498046875,
+                    0.140625
+                ],
+                "randomDigit": 54009
+            },
+            {
+                "confidence": "71",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.50732421875,
+                    0.7456597089767456,
+                    0.2490234375,
+                    0.2065972238779068
+                ],
+                "randomDigit": 25001
+            },
+            {
+                "confidence": "72",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.51513671875,
+                    0.0581597238779068,
+                    0.2490234375,
+                    0.1163194477558136
+                ],
+                "randomDigit": 88921
+            },
+            {
+                "confidence": "80",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.974609375,
+                    0.2465277761220932,
+                    0.05078125,
+                    0.4930555522441864
+                ],
+                "randomDigit": 82366
+            },
+            {
+                "confidence": "83",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.7978515625,
+                    0.6883680820465088,
+                    0.314453125,
+                    0.390625
+                ],
+                "randomDigit": 89105
+            },
+            {
+                "confidence": "85",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.275390625,
+                    0.6996527910232544,
+                    0.201171875,
+                    0.2430555522441864
+                ],
+                "randomDigit": 81087
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.2958984375,
+                    0.0642361119389534,
+                    0.1875,
+                    0.125
+                ],
+                "randomDigit": 64010
+            },
+            {
+                "confidence": "91",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.509765625,
+                    0.3576388955116272,
+                    0.25390625,
+                    0.5694444179534912
+                ],
+                "randomDigit": 10672
+            },
+            {
+                "confidence": "91",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.79248046875,
+                    0.2604166567325592,
+                    0.3056640625,
+                    0.5208333134651184
+                ],
+                "randomDigit": 68574
+            },
+            {
+                "confidence": "92",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.28662109375,
+                    0.3359375,
+                    0.2080078125,
+                    0.5225694179534912
+                ],
+                "randomDigit": 71036
+            }
+        ],
+        "path": "image_picker7211316143177582766.jpg"
+    },
+    {
+        "objects": [
+            {
+                "confidence": "87",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.0576171875,
+                    0.71875,
+                    0.115234375,
+                    0.5520833134651184
+                ],
+                "randomDigit": 45556
+            },
+            {
+                "confidence": "88",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.9443359375,
+                    0.6640625,
+                    0.111328125,
+                    0.5260416865348816
+                ],
+                "randomDigit": 66079
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.79638671875,
+                    0.6684027910232544,
+                    0.2744140625,
+                    0.5416666865348816
+                ],
+                "randomDigit": 46295
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.27001953125,
+                    0.1987847238779068,
+                    0.2763671875,
+                    0.3940972089767456
+                ],
+                "randomDigit": 74860
+            },
+            {
+                "confidence": "89",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.24755859375,
+                    0.6666666865348816,
+                    0.3115234375,
+                    0.6180555820465088
+                ],
+                "randomDigit": 71305
+            },
+            {
+                "confidence": "90",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.546875,
+                    0.6935763955116272,
+                    0.283203125,
+                    0.5121527910232544
+                ],
+                "randomDigit": 97968
+            },
+            {
+                "confidence": "90",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.53369140625,
+                    0.2430555522441864,
+                    0.2568359375,
+                    0.4618055522441864
+                ],
+                "randomDigit": 82230
+            },
+            {
+                "confidence": "90",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.75341796875,
+                    0.2282986044883728,
+                    0.2490234375,
+                    0.4565972089767456
+                ],
+                "randomDigit": 38771
+            },
+            {
+                "confidence": "91",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.078125,
+                    0.2421875,
+                    0.15234375,
+                    0.484375
+                ],
+                "randomDigit": 65969
+            },
+            {
+                "confidence": "91",
+                "id": "",
+                "name": "container_front",
+                "points": [
+                    0.919921875,
+                    0.2430555522441864,
+                    0.158203125,
+                    0.4618055522441864
+                ],
+                "randomDigit": 92165
+            }
+        ],
+        "path": "image_picker7666188812673781161.jpg"
+    }
+]
