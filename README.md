@@ -1,3 +1,3 @@
 # container_detection_server
 
-See https://app.roboflow.com/school-cmsdj/container-detection-ggvos/3 for the picture databsae
+See https://universe.roboflow.com/school-cmsdj/container-detection-ggvos for the picture databsae
